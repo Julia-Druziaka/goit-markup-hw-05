@@ -549,6 +549,7 @@ img {
   visibility: visible;
   pointer-events: auto;
 }
+
 .modal {
   position: absolute;
   top: 50%;
@@ -566,6 +567,16 @@ img {
 
 .backdrop:not(.is-open) .modal {
   transform: translate(-50%, -100%);
+}
+
+.paragraph {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 16px;
 }
 
 .mood {
