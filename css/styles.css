@@ -464,6 +464,11 @@ img {
   padding: 100px 0;
 }
 
+.sub {
+  display: flex;
+  gap: 24px;
+}
+
 .subscrib {
   margin-bottom: 16px;
   font-weight: 500;
@@ -471,11 +476,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-}
-
-.sub {
-  display: flex;
-  gap: 24px;
 }
 
 .footer-input {
