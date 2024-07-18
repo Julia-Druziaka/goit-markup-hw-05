@@ -707,3 +707,7 @@ img {
   justify-content: center;
   fill: transparent;
 }
+
+input[type="checkbox"]:checked + span {
+  background-color: #404bbf;
+}
