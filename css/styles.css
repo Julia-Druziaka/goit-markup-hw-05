@@ -453,11 +453,10 @@ img {
 .container-footer {
   display: flex;
   align-items: baseline;
-  margin-right: 120px;
 }
 
 .basement-container {
-  margin-right: 120px;
+  margin-right: auto;
 }
 .page-footer {
   background-color: #2e2f42;
@@ -581,6 +580,7 @@ img {
 }
 .send {
   margin-left: 16px;
+  fill: #fff;
 }
 .backdrop {
   position: fixed;
@@ -703,6 +703,7 @@ img {
   position: absolute;
   left: 16px;
   top: 50%;
+  fill: #2e2f42;
   transform: translateY(-50%);
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -797,4 +798,10 @@ input:checked + label > span {
   width: 169px;
   height: 56px;
   margin: 0 auto;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button-privacy:hover,
+.button-privacy:focus {
+  background-color: #404bbf;
 }
